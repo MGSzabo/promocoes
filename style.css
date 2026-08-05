@@ -1,1 +1,146 @@
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    background:#1f1f1f;
+
+    color:#ffffff;
+
+}
+
+header{
+
+    background:#ff6a00;
+
+    padding:35px;
+
+    text-align:center;
+
+}
+
+header h1{
+
+    font-size:34px;
+
+    margin-bottom:10px;
+
+}
+
+header p{
+
+    font-size:18px;
+
+}
+
+.produtos{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:30px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+
+    gap:25px;
+
+}
+
+.card{
+
+    background:#2c2c2c;
+
+    border-radius:14px;
+
+    padding:18px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.card img{
+
+    width:100%;
+
+    aspect-ratio:1/1;
+
+    object-fit:contain;
+
+    background:white;
+
+    border-radius:10px;
+
+}
+
+.card h2{
+
+    font-size:18px;
+
+    margin-top:15px;
+
+    min-height:50px;
+
+}
+
+.preco{
+
+    color:#00ff88;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    margin:15px 0;
+
+}
+
+.botao{
+
+    display:block;
+
+    background:#ff6a00;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:14px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+}
+
+.botao:hover{
+
+    background:#ff8d2a;
+
+}
+
+footer{
+
+    text-align:center;
+
+    padding:25px;
+
+    color:#bbbbbb;
+
+}
