@@ -92,9 +92,9 @@ header p{
 
 .card img{
 
-    width:100%;
+    width:180px;
 
-    aspect-ratio:1/1;
+    height:180px;
 
     object-fit:contain;
 
@@ -103,6 +103,10 @@ header p{
     border-radius:10px;
 
     padding:10px;
+
+    margin:auto;
+
+    display:block;
 
 }
 
