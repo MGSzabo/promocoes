@@ -14,23 +14,19 @@ body{
 /* TOPO */
 
 header{
-    position:relative;
+    position: relative;
+    width:100%;
+    aspect-ratio: 16 / 5;
     overflow:hidden;
     background:#ee4d2d;
-    padding:0;
-    text-align:center;
     box-shadow:0 4px 15px rgba(0,0,0,.4);
 }
 
 .banner-topo{
-    position:absolute;
-    top:0;
-    left:0;
     width:100%;
     height:100%;
+    display:block;
     object-fit:cover;
-    z-index:0;
-    pointer-events:none;
 }
 
 header h1,
