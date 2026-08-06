@@ -17,7 +17,7 @@ header{
     position:relative;
     overflow:hidden;
     background:#ee4d2d;
-    padding:35px 20px;
+    padding:0;
     text-align:center;
     box-shadow:0 4px 15px rgba(0,0,0,.4);
 }
@@ -28,7 +28,7 @@ header{
     left:0;
     width:100%;
     height:100%;
-    object-fit:contain;
+    object-fit:cover;
     z-index:0;
     pointer-events:none;
 }
