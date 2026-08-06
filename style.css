@@ -194,6 +194,26 @@ header p{
 
 /* RODAPÉ */
 
+.rodape {
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 30px;
+}
+
+.rodape button {
+    background: #ff4b2b;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rodape button:hover {
+    opacity: 0.9;
+}
+
 footer{
 
     margin-top:40px;
